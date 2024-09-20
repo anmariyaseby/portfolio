@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- for icons font awsom cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-family from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nerko+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=SUSE:wght@100..800&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <!-- animate link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <!-- nav -->
+        <nav>
+            <!-- logo -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png" class="logo"
+                alt="No-image">
+            <!-- links -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- home content -->
+            <div class="homecontent">
+                <h1 class="animate__animated animate__heartBeat" id="username">I'm An Mariya <span>Seby</span></h1>
+                <p id="userdetails">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Suscipit beatae error impedit laborum voluptates provident vitae facere, corporis cupiditate
+                </p>
+                <a id="downloadlink" href="./AN MARIYA SEBY.pdf" download="">Download CV</a>
+            </div>
+            <!-- home image -->
+            <div class="homeimage">
+                <img id="shape" class="group1" src="./images/YELLOW.png" alt="">
+                <img id="girl" class="group1" src="./images/GIRL.png" alt="">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="sectionhead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div class="aboutimage">
+                    <img class="img1"
+                        src="./images/aboutme"
+                        alt="No-image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellat quibusdam cum, quaerat
+                        quis officia temporibus porro accusantium molestias, enim aut rerum voluptates necessitatibus,
+                        vel possimus nulla ex fugiat adipisci!
+                        Cumque dolorem at odio, amet ipsum necessitatibus dolorum et corrupti autem animi distinctio
+                        nihil dolor deleniti ullam, consequuntur dolores incidunt impedit repellat ratione vel sunt
+                        error! Enim eaque quas est.
+                    </p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user" style="color: #000000;"></i>
+                            <span>An Mariya Seby</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone" style="color: #000000;"></i>
+                            <span>6235689757</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope" style="color: #080808;"></i>
+                            <span>anmariya.ms@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+
+        <section id="skills">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <div class="bar">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">83%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar cssbar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="barhead">BOOTCSS</h3>
+                        <span class="barpercent">34%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar bootbar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">71%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar jsbar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">79%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div class="skillimage">
+                    <img width="100%" height="100%" class="skillimg"
+                        src="https://media.licdn.com/dms/image/C5112AQHF9-fWmuYzIQ/article-cover_image-shrink_720_1280/0/1586662987121?e=2147483647&v=beta&t=McsuquK11qclZmxcYOJaGEZ5krH7F43VyVtAB5XJr2M"
+                        alt="no-image">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="mainhead">Contacts</h2>
+                <span data-aos="zoom-in-right" class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram brand"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-github brand"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter brand"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-solid fa-paper-plane brand"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-youtube brand"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook brand"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p id="copyright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, amet?</p>
+            <div class="icon uparrow">
+                <a href="#container"> <i class="fa-solid fa-chevron-up brand"></i></a>
+            </div>
+        </footer>
+
+        <!-- contact -->
+        <!-- footer -->
+    </div>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
